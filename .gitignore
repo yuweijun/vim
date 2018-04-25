@@ -1,0 +1,10 @@
+*.swp
+.DS_Store
+bundle
+_bundle
+fonts
+.netrwhist
+.git
+tmp
+before.vimrc
+after.vimrc
