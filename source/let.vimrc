@@ -13,7 +13,7 @@ let g:airline_theme                = 'murmur'
 let g:yankring_clipboard_monitor   = 0
 let g:yankring_replace_n_pkey      = '<Leader>['
 let g:yankring_replace_n_nkey      = '<Leader>]'
-let g:yankring_history_dir         = '~/.local/share/nvim/tmp'
+let g:yankring_history_dir         = '~/.vim/tmp'
 let g:rbpt_colorpairs              = [
                                    \ ['cyan',         'cyan'],
                                    \ ['lightred',     'lightred'],

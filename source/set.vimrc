@@ -38,9 +38,9 @@ set notimeout
 set ttimeout
 set ttimeoutlen=10
 set tw=0
-set backupdir=~/.local/share/nvim/tmp/backup//
-set directory=~/.local/share/nvim/tmp/swap//
-set undodir=~/.local/share/nvim/tmp/undo//
+set backupdir=~/.vim/tmp/backup//
+set directory=~/.vim/tmp/swap//
+set undodir=~/.vim/tmp/undo//
 set undofile
 set undolevels=3000
 set undoreload=10000
