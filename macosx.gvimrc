@@ -9,7 +9,7 @@ if has('gui_running')
     set guioptions=egmt
     set guioptions-=r
     set guioptions-=L
-    set guifont=Meslo\ LG\ S\ for\ Powerline:h18
+    set guifont=Menlo\ for\ Powerline:h18
     set guicursor+=a:blinkon0
 endif
 
