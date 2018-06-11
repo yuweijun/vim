@@ -11,5 +11,6 @@ if has('gui_running')
     set guioptions-=L
     set guifont=Menlo\ for\ Powerline:h18
     set guicursor+=a:blinkon0
+    set t_BE=
 endif
 
