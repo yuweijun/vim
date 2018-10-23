@@ -7,6 +7,8 @@ if has('gui_running')
     inoremap <a-v> <Esc>"+p
     nnoremap <Leader>` i`<Esc>
 
+    set hls
+    set scrolloff=5
     set winaltkeys=no
     set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
     set guioptions=egt
