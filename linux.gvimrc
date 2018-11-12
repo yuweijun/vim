@@ -8,6 +8,7 @@ if has('gui_running')
     nnoremap <Leader>` i`<Esc>
 
     set hls
+    set cc=120
     set scrolloff=5
     set winaltkeys=no
     set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
