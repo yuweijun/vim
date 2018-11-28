@@ -1,5 +1,5 @@
 if has('gui_running')
-    win 195 60
+    win 180 55
 
     autocmd FocusLost * :wa
 
