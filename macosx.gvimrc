@@ -12,7 +12,7 @@ if has('gui_running')
     set guioptions=egmt
     set guioptions-=r
     set guioptions-=L
-    set guifont=DroidSansMono\ Nerd\ Font:h18
+    set guifont=MesloLGM\ Nerd\ Font\ Mono:h18
     set guicursor+=a:blinkon0
     set t_BE=
 endif
