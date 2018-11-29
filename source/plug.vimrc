@@ -41,5 +41,6 @@ Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-scripts/scratch.vim'
 Plug 'w0ng/vim-hybrid'
 Plug 'zeis/vim-kolor'
+Plug 'ryanoasis/vim-devicons' " Always load the vim-devicons as the very last one.
 call plug#end()
 
