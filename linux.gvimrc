@@ -12,8 +12,8 @@ if has('gui_running')
     set scrolloff=5
     set winaltkeys=no
     set guifont=MesloLGMDZ\ Nerd\ Font\ Mono\ 12
-    set guioptions=egt
-    set guioptions-=rmLMT
+    set guioptions=gt
+    set guioptions-=ermLMT
     set guicursor+=a:blinkon0
 endif
 
