@@ -4,7 +4,6 @@ noremap  <Down>             <Nop>
 noremap  <Right>            <Nop>
 
 nnoremap <leader>a          :Ack<Space>
-nnoremap <silent><leader>M  :%s///<CR>
 nnoremap <silent><Leader>R  :RainbowParenthesesToggleAll<CR>
 nnoremap <silent><Leader>/  :nohls<CR>
 nnoremap <silent><Leader>y  :YRShow<CR>
@@ -35,4 +34,7 @@ vnoremap <F1>               <Esc>
 inoremap <F1>               <Esc>
 
 inoremap jj                 <Esc>
+
+xmap     ga                 <Plug>(EasyAlign)
+nmap     ga                 <Plug>(EasyAlign)
 
