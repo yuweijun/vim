@@ -48,7 +48,6 @@ Plugin 'vim-scripts/YankRing.vim'
 Plugin 'vim-scripts/scratch.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'zeis/vim-kolor'
-Plugin 'ryanoasis/vim-devicons' " Always load the vim-devicons as the very last one.
 call vundle#end()
 
 filetype plugin indent on
