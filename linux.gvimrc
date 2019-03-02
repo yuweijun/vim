@@ -5,7 +5,6 @@ if has('gui_running')
 
     vnoremap <a-c> "+y
     inoremap <a-v> <Esc>"+p
-    nnoremap <Leader>` i`<Esc>
 
     set hls
     set cc=120
