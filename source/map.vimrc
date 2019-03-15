@@ -35,6 +35,7 @@ vnoremap <F1>               <Esc>
 inoremap <F1>               <Esc>
 
 inoremap jj                 <Esc>
+inoremap kk                 <Esc>
 
 xmap     ga                 <Plug>(EasyAlign)
 nmap     ga                 <Plug>(EasyAlign)
