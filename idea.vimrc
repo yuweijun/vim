@@ -1,5 +1,4 @@
 inoremap jj <Esc>
-inoremap kk <Esc>
 
 set      history=1000
 set      hlsearch

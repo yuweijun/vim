@@ -25,7 +25,6 @@ nnoremap <Leader>K          <C-w>t<C-w>K
 nnoremap <Leader>W          <C-w>v<C-w>l
 nnoremap <Leader>w          <C-w>c
 nnoremap <Leader>o          o<Esc>
-nnoremap <Leader>`          i`<Esc>
 
 cnoremap <C-a>              <Home>
 cnoremap <C-e>              <End>
@@ -33,9 +32,7 @@ cnoremap <C-e>              <End>
 nnoremap <F1>               <Esc>
 vnoremap <F1>               <Esc>
 inoremap <F1>               <Esc>
-
 inoremap jj                 <Esc>
-inoremap kk                 <Esc>
 
 xmap     ga                 <Plug>(EasyAlign)
 nmap     ga                 <Plug>(EasyAlign)
