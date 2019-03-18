@@ -47,6 +47,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/YankRing.vim'
 Plugin 'vim-scripts/scratch.vim'
 Plugin 'w0ng/vim-hybrid'
+Plugin 'yuweijun/vimim'
 Plugin 'zeis/vim-kolor'
 call vundle#end()
 
