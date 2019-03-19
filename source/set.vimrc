@@ -10,6 +10,7 @@ set encoding=utf-8
 set hidden
 set history=1000
 set incsearch
+set imsearch=0
 set laststatus=2
 set list
 set modelines=0

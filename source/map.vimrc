@@ -32,8 +32,10 @@ cnoremap <C-e>              <End>
 nnoremap <F1>               <Esc>
 vnoremap <F1>               <Esc>
 inoremap <F1>               <Esc>
-inoremap jj                 <Esc>
+inoremap zz                 <Esc>
 
 xmap     ga                 <Plug>(EasyAlign)
 nmap     ga                 <Plug>(EasyAlign)
+
+imap     <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
