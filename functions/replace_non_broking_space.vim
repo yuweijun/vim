@@ -4,7 +4,7 @@
 " :%s/ctrl+v, u, 200e//g
 
 function! ReplaceNonBlockingSpace()
-    for linenum in range(0, line('$'))
+    for linenum in range(1, line('$'))
         let oldline = getline(linenum)
         let newline = substitute(oldline, ' ', ' ', "g")
         let newline = substitute(newline, '‎', '', "g")
