@@ -1,2 +1,2 @@
 source ~/.vim/source/vundle.vimrc
-source ~/.vim/base.vimrc
+source ~/.vim/source/base.vimrc

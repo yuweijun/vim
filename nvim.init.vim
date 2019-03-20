@@ -1,2 +1,2 @@
 source ~/.vim/source/plug.vimrc
-source ~/.vim/base.vimrc
+source ~/.vim/source/base.vimrc
