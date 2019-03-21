@@ -40,7 +40,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-scripts/scratch.vim'
 Plug 'w0ng/vim-hybrid'
-Plug 'yuweijun/vimim'
+Plug 'yuweijun/vim-im'
 Plug 'zeis/vim-kolor'
 call plug#end()
 
