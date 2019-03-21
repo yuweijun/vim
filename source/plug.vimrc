@@ -41,6 +41,7 @@ Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-scripts/scratch.vim'
 Plug 'w0ng/vim-hybrid'
 Plug 'yuweijun/vim-im'
+Plug 'yuweijun/vim-space'
 Plug 'zeis/vim-kolor'
 call plug#end()
 

@@ -48,6 +48,7 @@ Plugin 'vim-scripts/YankRing.vim'
 Plugin 'vim-scripts/scratch.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'yuweijun/vim-im'
+Plugin 'yuweijun/vim-space'
 Plugin 'zeis/vim-kolor'
 call vundle#end()
 
