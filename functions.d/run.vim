@@ -1,5 +1,5 @@
 function! RunVimScript()
-    if expand("%:e") ==? 'vim'
+    if expand("%:e") =~ 'vim'
         if &modified
             write
         endif
