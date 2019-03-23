@@ -1,4 +1,4 @@
-function! RunVimScript()
+function! VimscriptRun()
     if expand("%:e") =~ 'vim'
         if &modified
             write
@@ -8,5 +8,6 @@ function! RunVimScript()
     endif
 endfunction
 
-nnoremap <silent><Leader>s  :call RunVimScript()<CR>
+nnoremap <silent><Leader>rc  :source $HOME/.vimrc<CR>
+nnoremap <silent><Leader>vr  :call VimscriptRun()<CR>
 
