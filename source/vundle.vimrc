@@ -7,7 +7,6 @@ call vundle#begin()
 Plugin 'Elive/vim-colorscheme-elive'
 Plugin 'LucHermitte/vim-clang'
 Plugin 'Spaceghost/vim-matchit'
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'alfredodeza/jacinto.vim'
 Plugin 'altercation/vim-colors-solarized'
