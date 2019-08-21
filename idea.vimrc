@@ -5,6 +5,7 @@ set incsearch
 set number
 set scrolloff=5
 set showmode
+set ideajoin
 
 inoremap zz <Esc>
 
