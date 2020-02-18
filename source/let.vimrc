@@ -1,6 +1,7 @@
 let mapleader                      = ','
 let maplocalleader                 = '\\'
 
+let g:indentLine_conceallevel=0
 let g:ackprg                       = 'ag --vimgrep'
 let g:NERDSpaceDelims              = 1
 let g:markdown_syntax_conceal      = 0
