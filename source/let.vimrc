@@ -1,5 +1,6 @@
 let mapleader                      = ','
 let maplocalleader                 = '\\'
+let loaded_matchparen              = 1
 
 let g:indentLine_fileTypeExclude   = ['json']
 let g:ackprg                       = 'ag --vimgrep'
