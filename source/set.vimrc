@@ -1,5 +1,3 @@
-colorscheme molokai
-
 set autoindent
 set autoread
 set backspace=2
@@ -47,8 +45,4 @@ set undolevels=3000
 set undoreload=10000
 set backup
 set noswapfile
-
-if executable('zsh')
-    set shell=zsh\ -l
-endif
 
