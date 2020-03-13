@@ -22,7 +22,6 @@ set visualbell
 set showcmd
 set secure
 set matchtime=2
-set autoindent
 set tabstop=4
 set softtabstop=4
 set textwidth=80
