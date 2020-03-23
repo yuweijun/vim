@@ -8,6 +8,10 @@ source ~/.vim/source/airline.powerline.vimrc
 source ~/.vim/source/jsbeautify.vimrc
 source ~/.vim/source/vim.im.vimrc
 
+if filereadable(expand('~/.after.vimrc'))
+    source ~/.after.vimrc
+endif
+
 if executable('zsh')
     set shell=zsh\ -l
 endif
