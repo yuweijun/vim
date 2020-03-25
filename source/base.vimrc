@@ -12,10 +12,6 @@ if filereadable(expand('~/.after.vimrc'))
     source ~/.after.vimrc
 endif
 
-if executable('zsh')
-    set shell=zsh\ -l
-endif
-
 for f in split(glob('~/.vim/functions.d/*.vim'), '\n')
     sil!exe 'source' f
 endfor
