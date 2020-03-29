@@ -39,3 +39,5 @@ nmap     ga                 <Plug>(EasyAlign)
 
 imap     <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h') . '/' : '%%'
+
