@@ -6,7 +6,6 @@ noremap  <Right>            <Nop>
 nnoremap <leader>a          :Ack<Space>
 nnoremap <silent><Leader>R  :RainbowParenthesesToggleAll<CR>
 nnoremap <silent><Leader>/  :nohls<CR>
-nnoremap <silent><Leader>y  :YRShow<CR>
 nnoremap <silent><Leader>t  :NERDTreeToggle<CR>
 
 nnoremap <silent><Leader>hh :set invhlsearch<CR>
