@@ -3,9 +3,6 @@ if has('gui_running')
 
     autocmd FocusLost * :wa
 
-    vnoremap <a-c> "+y
-    inoremap <a-v> <Esc>"+p
-
     set hls
     set cc=120
     set scrolloff=5

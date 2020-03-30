@@ -30,9 +30,11 @@ cnoremap <C-a>              <Home>
 cnoremap <C-e>              <End>
 
 nnoremap <F1>               <Esc>
-vnoremap <F1>               <Esc>
 inoremap <F1>               <Esc>
-inoremap zz                 <Esc>
+vnoremap <F1>               <Esc>
+vnoremap <M-c>              "+y
+inoremap <M-v>              <Esc>"+p
+inoremap <M-z>              <Esc>
 
 xmap     ga                 <Plug>(EasyAlign)
 nmap     ga                 <Plug>(EasyAlign)
