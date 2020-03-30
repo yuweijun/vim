@@ -1,4 +1,4 @@
-source $HOME/.vim/source/ycm.java.vimrc
+source $HOME/.vim/source/ycm.java.vim
 
 if has('python3')
     command! -nargs=1 Py py3 <args>

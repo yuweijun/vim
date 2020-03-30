@@ -24,7 +24,6 @@ nnoremap <Leader>H          <C-w>t<C-w>H
 nnoremap <Leader>K          <C-w>t<C-w>K
 nnoremap <Leader>W          <C-w>v<C-w>l
 nnoremap <Leader>w          <C-w>c
-nnoremap <Leader>o          o<Esc>
 
 cnoremap <C-a>              <Home>
 cnoremap <C-e>              <End>
