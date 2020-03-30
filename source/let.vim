@@ -12,10 +12,6 @@ let g:ctrlp_map                    = '<c-p>'
 let g:ctrlp_cmd                    = 'CtrlP .'
 let g:ctrlp_custom_ignore          = '\v[\/]?(node_modules)$'
 let g:airline_theme                = 'murmur'
-let g:yankring_clipboard_monitor   = 0
-let g:yankring_replace_n_pkey      = '<Leader>['
-let g:yankring_replace_n_nkey      = '<Leader>]'
-let g:yankring_history_dir         = '~/.vim/tmp'
 let g:rbpt_colorpairs              = [
                                        \ ['cyan',         'cyan'],
                                        \ ['lightred',     'lightred'],
