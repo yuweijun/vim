@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'Vundle.vim'
+Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Yggdroot/indentLine'
 Plugin 'chrisbra/unicode.vim'
 Plugin 'jiangmiao/auto-pairs'

@@ -36,6 +36,7 @@ inoremap <M-v>              <Esc>"+p
 
 xmap     ga                 <Plug>(EasyAlign)
 nmap     ga                 <Plug>(EasyAlign)
+nmap     gs                 <Plug>(easymotion-s2)
 
 imap     <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
