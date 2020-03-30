@@ -2,7 +2,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'Yggdroot/indentLine'
 Plug 'chrisbra/unicode.vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'junegunn/fzf'
 Plug 'junegunn/vim-easy-align'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'kien/rainbow_parentheses.vim'
