@@ -3,9 +3,11 @@ noremap  <Up>               <Nop>
 noremap  <Down>             <Nop>
 noremap  <Right>            <Nop>
 
+nnoremap /                  /\c\v
 nnoremap <leader>a          :Ack<Space>
 nnoremap <silent><Leader>R  :RainbowParenthesesToggleAll<CR>
 nnoremap <silent><Leader>/  :nohls<CR>
+nnoremap <silent><Leader>o  :only<CR>
 nnoremap <silent><Leader>t  :NERDTreeToggle<CR>
 
 nnoremap <silent><Leader>hh :set invhlsearch<CR>

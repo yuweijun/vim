@@ -7,6 +7,8 @@ set cursorline
 set encoding=utf-8
 set hidden
 set history=1000
+set ignorecase
+set smartcase
 set incsearch
 set imsearch=0
 set laststatus=2
