@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
-mkdir -p bundle
-mkdir -p tmp/backup tmp/swap tmp/undo
-mkdir -p ~/.config/nvim ~/.local/share/nvim/tmp/backup ~/.local/share/nvim/tmp/swap ~/.local/share/nvim/tmp/undo
+mkdir -p ~/.config/nvim
+DIR=$(pwd)
 
-ln -sfn $(pwd) ~/.vim
-ln -sfn $(pwd)/vundle.vimrc ~/.vimrc
-ln -sfn $(pwd)/vundle.vimrc ~/.config/nvim/init.vim
-ln -sfn $(pwd)/linux.gvimrc ~/.gvimrc
+ln -sfn ${DIR} ~/.vim
+ln -sfn ${DIR}/vundle.vimrc ~/.vimrc
+ln -sfn ${DIR}/vundle.vimrc ~/.config/nvim/init.vim
+ln -sfn ${DIR}/linux.gvimrc ~/.gvimrc
+
+mkdir -p ~/.vim/tmp/backup ~/.vim/tmp/swap ~/.vim/tmp/undo ~/.vim/bundle
 
 if [ ! -d ~/.vim/tmp/Vundle.vim ]; then
     git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git ~/.vim/tmp/Vundle.vim
