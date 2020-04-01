@@ -22,6 +22,6 @@ Plug 'tpope/vim-unimpaired'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yuweijun/vim-hexo'
-Plug 'yuweijun/vim-im'
+Plug 'yuweijun/vim-wb'
 Plug 'yuweijun/vim-space'
 call plug#end()

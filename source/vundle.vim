@@ -26,7 +26,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'yuweijun/vim-hexo'
-Plugin 'yuweijun/vim-im'
+Plugin 'yuweijun/vim-wb'
 Plugin 'yuweijun/vim-space'
 call vundle#end()
 
