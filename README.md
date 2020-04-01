@@ -21,7 +21,7 @@
 
 ```
 
-## Optional Vim plugins manager uses Vundle.vim:
+## Optional Vim plugins manager setup using Vundle.vim:
 
 ```
     $ git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git ~/.vim/tmp/Vundle.vim
