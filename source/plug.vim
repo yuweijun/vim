@@ -1,4 +1,6 @@
-call plug#begin('~/.local/share/nvim/plugged')
+source ~/.vim/tmp/plug.vim
+
+call plug#begin('~/.vim/tmp/plugged')
 Plug 'Lokaltog/vim-easymotion'
 Plug 'Yggdroot/indentLine'
 Plug 'chrisbra/unicode.vim'
