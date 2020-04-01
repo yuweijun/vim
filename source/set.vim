@@ -51,15 +51,15 @@ set undodir=~/.vim/tmp/undo//
 set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 
-if !isdirectory(expand("$HOME/.vim/undo"))
-    call mkdir(expand("$HOME/.vim/undo"))
+if !isdirectory(expand("$HOME/.vim/tmp/undo"))
+    call mkdir(expand("$HOME/.vim/tmp/undo"))
 endif
 
-if !isdirectory(expand("$HOME/.vim/backup"))
-    call mkdir(expand("$HOME/.vim/backup"))
+if !isdirectory(expand("$HOME/.vim/tmp/backup"))
+    call mkdir(expand("$HOME/.vim/tmp/backup"))
 endif
 
-if !isdirectory(expand("$HOME/.vim/swap"))
-    call mkdir(expand("$HOME/.vim/swap"))
+if !isdirectory(expand("$HOME/.vim/tmp/swap"))
+    call mkdir(expand("$HOME/.vim/tmp/swap"))
 endif
 
