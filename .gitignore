@@ -6,4 +6,4 @@ fonts
 tmp
 before.vimrc
 after.vimrc
-bundle/*
+bundle
