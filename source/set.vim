@@ -5,7 +5,6 @@ set belloff=all
 set binary
 set completeopt=longest,menu
 set cursorline
-set display=lastline,msgsep
 set encoding=utf-8
 set fsync
 set hidden
