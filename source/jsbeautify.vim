@@ -1,5 +1,10 @@
-if filereadable("/usr/local/bin/node") || exists(":node")
-    nmap <silent> <leader>jb :call JsBeautify()<CR>
-    nmap <silent> <leader>jc :call CSSBeautify()<CR>
-    nmap <silent> <leader>jh :call HtmlBeautify()<CR>
-endif
+autocmd FileType javascript noremap  <buffer> <C-l> :call JsBeautify()<CR>
+autocmd FileType json       noremap  <buffer> <C-l> :call JsonBeautify()<CR>
+autocmd FileType jsx        noremap  <buffer> <C-l> :call JsxBeautify()<CR>
+autocmd FileType html       noremap  <buffer> <C-l> :call HtmlBeautify()<CR>
+autocmd FileType css        noremap  <buffer> <C-l> :call CSSBeautify()<CR>
+autocmd FileType javascript vnoremap <buffer> <C-l> :call RangeJsBeautify()<CR>
+autocmd FileType json       vnoremap <buffer> <C-l> :call RangeJsonBeautify()<CR>
+autocmd FileType jsx        vnoremap <buffer> <C-l> :call RangeJsxBeautify()<CR>
+autocmd FileType html       vnoremap <buffer> <C-l> :call RangeHtmlBeautify()<CR>
+autocmd FileType css        vnoremap <buffer> <C-l> :call RangeCSSBeautify()<CR>

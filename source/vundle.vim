@@ -1,10 +1,10 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set runtimepath+=~/.vim/tmp/Vundle.vim
 
 call vundle#begin()
-Plugin 'Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Yggdroot/indentLine'
 Plugin 'chrisbra/unicode.vim'
