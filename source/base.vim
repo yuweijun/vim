@@ -1,6 +1,7 @@
 source ~/.vim/source/autocmd.vim
 source ~/.vim/source/let.vim
 source ~/.vim/source/map.vim
+source ~/.vim/source/matchit.vim
 source ~/.vim/source/set.vim
 source ~/.vim/source/colorscheme.vim
 source ~/.vim/source/highlight.vim
