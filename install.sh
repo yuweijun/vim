@@ -13,6 +13,11 @@ mkdir -p ~/.vim/tmp/backup ~/.vim/tmp/swap ~/.vim/tmp/undo
 if [ ! -e ~/.vim/tmp/plug.vim ]; then
     curl -fLo ~/.vim/tmp/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     vim -c PlugInstall -c qa
+
+    if [ -d tmp/plugged/vim-jsbeautify ]; then
+        cd tmp/plugged/vim-jsbeautify
+        git submodule update --init --recursive
+    fi
 else
     vim -c PlugUpdate -c qa
 fi
