@@ -1,23 +1,9 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/.config/nvim
-DIR=$(pwd)
+# plugin manager name : plug/vundle/dein
+PLUGIN_MANAGER="plug"
 
-ln -sfn ${DIR} ~/.vim
-ln -sfn ${DIR}/plug.vimrc ~/.vimrc
-ln -sfn ${DIR}/plug.vimrc ~/.config/nvim/init.vim
-ln -sfn ${DIR}/linux.gvimrc ~/.gvimrc
-
-mkdir -p ~/.vim/tmp/backup ~/.vim/tmp/swap ~/.vim/tmp/undo
-
-if [ ! -e ~/.vim/tmp/plug.vim ]; then
-    curl -fLo ~/.vim/tmp/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    vim -c PlugInstall -c qa
-
-    if [ -d tmp/plugged/vim-jsbeautify ]; then
-        cd tmp/plugged/vim-jsbeautify
-        git submodule update --init --recursive
-    fi
-else
-    vim -c PlugUpdate -c qa
+PLUGIN_MANAGER_INSTALLER="./install.${PLUGIN_MANAGER}.sh"
+if [ -f $PLUGIN_MANAGER_INSTALLER ]; then
+    sh $PLUGIN_MANAGER_INSTALLER
 fi

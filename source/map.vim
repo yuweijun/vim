@@ -8,7 +8,6 @@ nnoremap <leader>a          :Ack<Space><C-r><C-w>
 nnoremap <silent><Leader>R  :RainbowParenthesesToggleAll<CR>
 nnoremap <silent><Leader>/  :nohlsearch<CR>
 nnoremap <silent><Leader>o  :only<CR>
-nnoremap <silent><Leader>t  :NERDTreeToggle<CR>
 
 nnoremap <silent><Leader>hh :set invhlsearch<CR>
 nnoremap <silent><Leader>ll :set invlist<CR>
