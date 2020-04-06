@@ -36,7 +36,6 @@ set formatoptions=qrmn1M
 set nolazyredraw
 set listchars=tab:▸\ ,extends:❯,precedes:❮,trail:␣
 set showbreak=↪
-set termguicolors
 set notimeout
 set ttimeout
 set ttimeoutlen=10
