@@ -26,12 +26,7 @@ nnoremap <Leader>w          <C-w>c
 
 cnoremap <C-a>              <Home>
 cnoremap <C-e>              <End>
-
-nnoremap <F1>               <Esc>
-inoremap <F1>               <Esc>
-vnoremap <F1>               <Esc>
-vnoremap <A-z>              <Esc>
-inoremap <A-v>              <Esc>"+p
+inoremap <A-v>              <Esc>"+P
 vnoremap <A-c>              "+y
 
 xmap     ga                 <Plug>(EasyAlign)
