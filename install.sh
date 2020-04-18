@@ -12,4 +12,6 @@ fi
 if type pip 2&>/dev/null; then
     echo "install vim-vint"
     pip install vim-vint
+    DIR=$(pwd)
+    ln -sfn "$DIR/vintrc.yaml" "$HOME/.vintrc.yaml"
 fi
