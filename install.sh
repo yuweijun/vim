@@ -9,9 +9,10 @@ if [ -f $PLUGIN_MANAGER_INSTALLER ]; then
 fi
 
 # check vim syntax with ALE
-if type pip 2&>/dev/null; then
+if type pip > /dev/null 2>&1; then
     echo "install vim-vint"
-    pip install vim-vint
-    DIR=$(pwd)
-    ln -sfn "$DIR/vintrc.yaml" "$HOME/.vintrc.yaml"
+    if ! type vint > /dev/null 2>&1; then
+        pip install vim-vint
+    fi
+    ln -sfn "$(pwd)/vintrc.yaml" "$HOME/.vintrc.yaml"
 fi
