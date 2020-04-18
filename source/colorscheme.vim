@@ -1,10 +1,11 @@
 let g:colorSchemes = {
+            \ 'monokai' : 55,
             \ 'molokai' : 45,
-            \ 'monokai' : 35,
-            \ 'gruvbox' : 25,
-            \ 'PaperColor' : 25,
+            \ 'PaperColor' : 35,
             \ 'dracula' : 25,
-            \ 'onedark' : 15,
-            \ 'atom-dark' : 15,
+            \ 'gruvbox' : 15,
+            \ 'atom-dark' : 5,
+            \ 'onedark' : 5,
             \ 'zenburn' : 5,
-            \ 'jellybeans' : 5 }
+            \ 'jellybeans' : 5
+            \}

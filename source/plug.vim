@@ -3,10 +3,12 @@ source ~/.vim/tmp/plug.vim
 call plug#begin('~/.vim/tmp/plugged')
 Plug 'Lokaltog/vim-easymotion'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'Vimjas/vint'
 Plug 'Yggdroot/indentLine'
 Plug 'chrisbra/unicode.vim'
 Plug 'crusoexia/vim-monokai'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'dense-analysis/ale'
 Plug 'dracula/vim'
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'jiangmiao/auto-pairs'

@@ -1,3 +1,4 @@
+set encoding=utf-8
 set autoindent
 set autoread
 set backspace=2
@@ -5,7 +6,6 @@ set belloff=all
 set binary
 set completeopt=longest,menu
 set cursorline
-set encoding=utf-8
 set fsync
 set hidden
 set history=10000
@@ -17,7 +17,7 @@ set laststatus=2
 set list
 set modelines=0
 set nrformats=bin,hex
-set noeol
+set noendofline
 set relativenumber
 set number
 set numberwidth=3
@@ -51,14 +51,14 @@ set undodir=~/.vim/tmp/undo//
 set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 
-if !isdirectory(expand("$HOME/.vim/tmp/undo"))
-    call mkdir(expand("$HOME/.vim/tmp/undo"))
+if !isdirectory(expand('$HOME/.vim/tmp/undo'))
+    call mkdir(expand('$HOME/.vim/tmp/undo'))
 endif
 
-if !isdirectory(expand("$HOME/.vim/tmp/backup"))
-    call mkdir(expand("$HOME/.vim/tmp/backup"))
+if !isdirectory(expand('$HOME/.vim/tmp/backup'))
+    call mkdir(expand('$HOME/.vim/tmp/backup'))
 endif
 
-if !isdirectory(expand("$HOME/.vim/tmp/swap"))
-    call mkdir(expand("$HOME/.vim/tmp/swap"))
+if !isdirectory(expand('$HOME/.vim/tmp/swap'))
+    call mkdir(expand('$HOME/.vim/tmp/swap'))
 endif
