@@ -6,6 +6,7 @@ source ~/.vim/source/set.vim
 source ~/.vim/source/colorscheme.vim
 source ~/.vim/source/highlight.vim
 source ~/.vim/source/airline.powerline.vim
+source ~/.vim/source/goyo.vim
 source ~/.vim/source/jsbeautify.vim
 source ~/.vim/source/vim.im.vim
 
