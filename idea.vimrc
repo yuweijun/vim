@@ -13,7 +13,10 @@ inoremap z, <Esc>
 " :actionlist
 nmap <leader>a :action Annotate<CR>
 nmap <leader>c :action Compare.SameVersion<CR>
-nmap <leader>p :action CompareClipboardWithSelection<CR>
 nmap <leader>h :action Vcs.ShowTabbedFileHistory<CR>
 nmap <leader>l :action LocalHistory.ShowHistory<CR>
+nmap <leader>m :action MethodHierarchy<CR>
+nmap <leader>p :action CompareClipboardWithSelection<CR>
+nmap <leader>r :action CallHierarchy<CR>
+nmap <leader>t :action TypeHierarchy<CR>
 nmap <leader>w :action HideAllWindows<CR>
