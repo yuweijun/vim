@@ -5,12 +5,14 @@ set incsearch
 set number
 set scrolloff=2
 set showmode
+set visualbell
+set noerrorbells
 set ideajoin
 
-let mapleader = ","
-inoremap z, <Esc>
+inoremap <A-l> <Esc>
 
 " :actionlist
+let mapleader = ","
 nmap <leader>a :action Annotate<CR>
 nmap <leader>c :action Compare.SameVersion<CR>
 nmap <leader>h :action Vcs.ShowTabbedFileHistory<CR>
