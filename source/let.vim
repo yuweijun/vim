@@ -23,5 +23,6 @@ let g:ale_set_quickfix               = 1
 let g:ale_linters                    = {
             \   'sh':               ['shellcheck'],
             \   'vim':              ['vint'],
+            \   'lua':              ['luac'],
             \   'javascript':       ['eslint']
             \}
