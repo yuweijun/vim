@@ -4,6 +4,7 @@ filetype off
 set runtimepath+=~/.vim/tmp/Vundle.vim
 
 call vundle#begin()
+Plugin 'Chiel92/vim-autoformat'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'NLKNguyen/papercolor-theme'

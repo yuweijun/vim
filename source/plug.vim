@@ -1,6 +1,7 @@
 source ~/.vim/tmp/plug.vim
 
 call plug#begin('~/.vim/tmp/plugged')
+Plug 'Chiel92/vim-autoformat'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'Vimjas/vint'

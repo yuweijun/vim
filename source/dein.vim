@@ -4,6 +4,7 @@ set runtimepath+=~/.vim/tmp/dein.vim
 if dein#load_state('~/.vim/tmp/dein')
   call dein#begin('~/.vim/tmp/dein')
   call dein#add('Shougo/dein.vim')
+  call dein#add('Chiel92/vim-autoformat')
   call dein#add('Lokaltog/vim-easymotion')
   call dein#add('NLKNguyen/papercolor-theme')
   call dein#add('Yggdroot/indentLine')
