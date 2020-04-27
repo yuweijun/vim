@@ -3,6 +3,7 @@ set hlsearch
 set ignorecase smartcase
 set incsearch
 set number
+set relativenumber
 set scrolloff=2
 set showmode
 set visualbell
