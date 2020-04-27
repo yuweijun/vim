@@ -4,8 +4,8 @@ let g:colorSchemes = {
             \ 'PaperColor' : 35,
             \ 'dracula' : 25,
             \ 'gruvbox' : 15,
-            \ 'atom-dark' : 5,
-            \ 'onedark' : 5,
-            \ 'zenburn' : 5,
-            \ 'jellybeans' : 5
+            \ 'jellybeans' : 5,
+            \ 'atom-dark' : 4,
+            \ 'onedark' : 3,
+            \ 'zenburn' : 2
             \}
