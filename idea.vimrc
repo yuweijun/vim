@@ -43,14 +43,14 @@ nnoremap <leader>gs :action ActivateVersionControlToolWindow<CR>
 nnoremap <leader>gh :action Vcs.ShowTabbedFileHistory<CR>
 " git revert
 nnoremap <leader>gz :action ChangesView.Revert<CR>
-" hide windows
-nnoremap <leader>hw :action HideAllWindows<CR>
 " local history
 nnoremap <leader>lh :action LocalHistory.ShowHistory<CR>
 " method hierarchy
 nnoremap <leader>mh :action MethodHierarchy<CR>
 " type hierarchy
 nnoremap <leader>th :action TypeHierarchy<CR>
+" hide all windows
+nnoremap <leader>w :action HideAllWindows<CR>
 " add new line before current line
 nnoremap [<space> :action EditorStartNewLineBefore<CR>
 " add new line after current line
