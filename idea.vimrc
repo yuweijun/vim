@@ -22,7 +22,7 @@ nmap <leader>p  :action CompareClipboardWithSelection<CR>
 nmap <leader>r  :action CallHierarchy<CR>
 nmap <leader>t  :action TypeHierarchy<CR>
 nmap <leader>w  :action HideAllWindows<CR>
-nmap <leader>sp a <Esc>
-nmap <leader>sb i <Esc>
+nmap <leader>sn a<space><Esc>
+nmap <leader>sp i<space><Esc>
 nmap ]<space>   :action EditorStartNewLine<CR>
 nmap [<space>   :action EditorStartNewLineBefore<CR>

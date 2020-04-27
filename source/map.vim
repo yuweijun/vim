@@ -4,7 +4,9 @@ noremap  <Down>             <Nop>
 noremap  <Right>            <Nop>
 
 nnoremap /                  /\c\v
-nnoremap <leader>a          :Ack<Space>
+nnoremap <silent><leader>sn a<space><Esc>
+nnoremap <silent><leader>sp i<space><Esc>
+nnoremap <silent><leader>a  :Ack<Space>
 nnoremap <silent><Leader>/  :nohlsearch<CR>
 nnoremap <silent><Leader>o  :only<CR>
 nnoremap <silent><Leader>t  :NERDTreeToggle<CR>
