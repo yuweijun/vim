@@ -3,7 +3,6 @@ set hlsearch
 set ignorecase smartcase
 set incsearch
 set number
-set relativenumber
 set scrolloff=2
 set showmode
 set visualbell
@@ -42,7 +41,7 @@ nnoremap <leader>gs :action ActivateVersionControlToolWindow<CR>
 " git history
 nnoremap <leader>gh :action Vcs.ShowTabbedFileHistory<CR>
 " git revert
-nnoremap <leader>gz :action ChangesView.Revert<CR>
+nnoremap <leader>gr :action ChangesView.Revert<CR>
 " local history
 nnoremap <leader>lh :action LocalHistory.ShowHistory<CR>
 " method hierarchy
