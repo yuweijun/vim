@@ -16,6 +16,7 @@ nnoremap <silent><Leader>ll :set invlist<CR>
 nnoremap <silent><Leader>nn :set invnumber<CR>
 nnoremap <silent><Leader>pp :set invpaste<CR>
 nnoremap <silent><Leader>ii :set invrelativenumber<CR>
+nnoremap <silent><Leader>cd :cd %:h<CR>
 
 nnoremap <C-h>              <C-w>h
 nnoremap <C-j>              <C-w>j
@@ -37,6 +38,4 @@ nmap     ga                 <Plug>(EasyAlign)
 nmap     gs                 <Plug>(easymotion-s2)
 
 imap     <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
-
-cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h') . '/' : '%%'
 
