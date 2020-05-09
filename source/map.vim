@@ -33,9 +33,10 @@ cnoremap <C-e>              <End>
 inoremap <A-v>              <Esc>"+P
 vnoremap <A-c>              "+y
 
-xmap     ga                 <Plug>(EasyAlign)
-nmap     ga                 <Plug>(EasyAlign)
-nmap     gs                 <Plug>(easymotion-s2)
+inoremap zz                 <Esc>
+xnoremap ga                 <Plug>(EasyAlign)
+nnoremap ga                 <Plug>(EasyAlign)
+nnoremap gs                 <Plug>(easymotion-s2)
 
-imap     <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+inoremap <silent><C-D><C-T> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
