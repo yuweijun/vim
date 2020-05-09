@@ -11,6 +11,7 @@ set ideajoin
 
 " remap Alt-L as ESC
 inoremap <A-l> <Esc>
+inoremap zz    <Esc>
 
 let mapleader = ","
 
