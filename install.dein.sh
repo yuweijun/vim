@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
+cd "$(dirname $0)"
+
 mkdir -p "${HOME}/.config/nvim"
 mkdir -p "${HOME}/.local/share/nvim/site"
 
 DIR=$(pwd)
+echo $DIR
 
 ln -sfn "${DIR}" ~/.vim
 ln -sfn "${DIR}/plug.vimrc" ~/.vimrc

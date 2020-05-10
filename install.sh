@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd "$(dirname $0)"
+
 # plugin manager name : plug/vundle/dein
 PLUGIN_MANAGER="plug"
 
