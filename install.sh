@@ -5,6 +5,10 @@ cd "$(dirname $0)"
 # plugin manager name : plug/vundle/dein
 PLUGIN_MANAGER="plug"
 
+if [ "$#" -eq 1 ]; then
+    PLUGIN_MANAGER="$1"
+fi
+
 PLUGIN_MANAGER_INSTALLER="./install.${PLUGIN_MANAGER}.sh"
 if [ -f $PLUGIN_MANAGER_INSTALLER ]; then
     sh $PLUGIN_MANAGER_INSTALLER
