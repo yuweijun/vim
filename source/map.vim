@@ -3,20 +3,21 @@ noremap  <Up>               <Nop>
 noremap  <Down>             <Nop>
 noremap  <Right>            <Nop>
 
-nnoremap /                  /\c\v
-nnoremap <silent><leader>sn a<space><Esc>
-nnoremap <silent><leader>sp i<space><Esc>
-nnoremap <silent><leader>a  :Ack<Space>
-nnoremap <silent><Leader>/  :nohlsearch<CR>
-nnoremap <silent><Leader>o  :only<CR>
-nnoremap <silent><Leader>t  :NERDTreeToggle<CR>
-nnoremap <silent><Leader>ff :Autoformat<CR>
-nnoremap <silent><Leader>hh :set invhlsearch<CR>
-nnoremap <silent><Leader>ll :set invlist<CR>
-nnoremap <silent><Leader>nn :set invnumber<CR>
-nnoremap <silent><Leader>pp :set invpaste<CR>
-nnoremap <silent><Leader>ii :set invrelativenumber<CR>
-nnoremap <silent><Leader>cd :cd %:h<CR>
+nnoremap /                       /\c\v
+nnoremap <silent><leader><space> o<Esc>
+nnoremap <silent><leader>sn      a<space><Esc>
+nnoremap <silent><leader>sp      i<space><Esc>
+nnoremap <silent><leader>a       :Ack<Space>
+nnoremap <silent><Leader>/       :nohlsearch<CR>
+nnoremap <silent><Leader>o       :only<CR>
+nnoremap <silent><Leader>t       :NERDTreeToggle<CR>
+nnoremap <silent><Leader>ff      :Autoformat<CR>
+nnoremap <silent><Leader>hh      :set invhlsearch<CR>
+nnoremap <silent><Leader>ll      :set invlist<CR>
+nnoremap <silent><Leader>nn      :set invnumber<CR>
+nnoremap <silent><Leader>pp      :set invpaste<CR>
+nnoremap <silent><Leader>ii      :set invrelativenumber<CR>
+nnoremap <silent><Leader>cd      :cd %:h<CR>
 
 nnoremap <C-h>              <C-w>h
 nnoremap <C-j>              <C-w>j
