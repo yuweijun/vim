@@ -13,3 +13,9 @@
     $ sh fonts/install.sh
 ```
 
+## Repeat keys in Mac OS
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
+```
